@@ -3,7 +3,7 @@ const review = Model.review;
 
 class review_controller {
     hello = (req, res) => {
-        return res.status(200).send("hello");
+        return res.status(200).send("hello Phong đang ở Circle K");
     }
 
     getAllReview = async (req, res) => {
